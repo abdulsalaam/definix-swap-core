@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"sayHello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"hello\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/BitBucket/definix/definix-swap-core/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/BitBucket/definix/definix-swap-core/contracts/HelloWorld.sol\":{\"keccak256\":\"0xb2b584b2f32c9a92f5b74517f0e52540b7e20e3af7350a50c755c315493e9c9f\",\"urls\":[\"bzz-raw://08353915e5a1d9d6f29c9b2c1d5c1d242b0c63b3336a6e468eb5bec4005606da\",\"dweb:/ipfs/QmTKCeRtNjzWgfQ3MrcrSxNwGe3gwPhrLn8SkLBCVMYFBs\"]}},\"version\":1}",
@@ -312,9 +313,23 @@
     "name": "solc",
     "version": "0.6.12+commit.27d51765.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "97": {
+      "events": {},
+      "links": {},
+      "address": "0x15284e64ea70cA8d61EDFE323F2cF9fafdB7d9bE",
+      "transactionHash": "0x4836835a80627b34eb34da5a13a3821cd26f20d033b9f3d702506cf7821830e8"
+    },
+    "1619163920901": {
+      "events": {},
+      "links": {},
+      "address": "0x1DffFeADf7959Cd9d73b58CaB0fEa42bbe61229A",
+      "transactionHash": "0xfca0433d4f84cd8f14f1f46fdc26dd7558c29f19c2a141113546edcbb9201b1b"
+    }
+  },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-23T05:31:53.325Z",
+  "updatedAt": "2021-04-23T07:49:09.278Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
